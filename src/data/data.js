@@ -1,74 +1,102 @@
-export const projects = [
+export const peoples = [
   {
     id: 1,
     image:
-      "https://cdn-developer-wp.arc.dev/wp-content/uploads/2022/06/coding-programming-project-ideas-1128x635.jpg",
-    title: "Developpement d'une application web avec Laravel et React Js",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, cumque sequi eos suscipit repellendus in quia odit, et itaque amet magni assumenda earum ullam ipsam doloribus recusandae. Voluptatibus, vitae ducimus! Laboriosam, iste! Officia quam, facere similique, libero provident vitae unde ratione commodi possimus ab minus nemo? Tempora adipisci aperiam odio aut dolores nemo a iusto quae, illum nulla, error eius! Nisi voluptatem eaque officia obcaecati reprehenderit, nesciunt qui consequatur sint voluptas dignissimos sequi magni voluptates dicta similique quas amet praesentium ipsam maiores illum fugiat, laboriosam dolore aliquam deleniti. Quod, et?",
+      "https://upload.wikimedia.org/wikipedia/commons/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg",
+    name: "Elon Musk",
+    title: "Directeur General de Tesla",
+    user: "Diamil",
+    like: 140,
+    comment: 13,
   },
   {
     id: 2,
     image:
-      "https://www.wisembly.com/assets/wizuploads/2022/12/page-event-en-800x704.webp",
-    title: "Developpement d'un site web d'evenements",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, cumque sequi eos suscipit repellendus in quia odit, et itaque amet magni assumenda earum ullam ipsam doloribus recusandae. Voluptatibus, vitae ducimus! Laboriosam, iste! Officia quam, facere similique, libero provident vitae unde ratione commodi possimus ab minus nemo? Tempora adipisci aperiam odio aut dolores nemo a iusto quae, illum nulla, error eius! Nisi voluptatem eaque officia obcaecati reprehenderit, nesciunt qui consequatur sint voluptas dignissimos sequi magni voluptates dicta similique quas amet praesentium ipsam maiores illum fugiat, laboriosam dolore aliquam deleniti. Quod, et?",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/1200px-Muhammad_Ali_NYWTS.jpg",
+    name: "Muhammad Ali",
+    title: "Boxer",
+    user: "Karim",
+    like: 230,
+    comment: 47,
   },
   {
     id: 3,
     image:
-      "https://kinsta.com/fr/wp-content/themes/kinsta/images/custom-pages/page/landing-best-wordpress-themes/screenshots/oceanwp.jpg",
-    title: "Developpement d'une application web-ecommerce",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, cumque sequi eos suscipit repellendus in quia odit, et itaque amet magni assumenda earum ullam ipsam doloribus recusandae. Voluptatibus, vitae ducimus! Laboriosam, iste! Officia quam, facere similique, libero provident vitae unde ratione commodi possimus ab minus nemo? Tempora adipisci aperiam odio aut dolores nemo a iusto quae, illum nulla, error eius! Nisi voluptatem eaque officia obcaecati reprehenderit, nesciunt qui consequatur sint voluptas dignissimos sequi magni voluptates dicta similique quas amet praesentium ipsam maiores illum fugiat, laboriosam dolore aliquam deleniti. Quod, et?",
+      "https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg",
+    name: "Mark Zuckerberg",
+    title: "CEO de Meta Platforms",
+    user: "Karim",
+    like: 130,
+    comment: 27,
   },
   {
     id: 4,
     image:
-      "https://kinsta.com/fr/wp-content/themes/kinsta/images/custom-pages/page/landing-best-wordpress-themes/screenshots/astra.jpg",
-    title: "Developpement du site web d'Astra",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, cumque sequi eos suscipit repellendus in quia odit, et itaque amet magni assumenda earum ullam ipsam doloribus recusandae. Voluptatibus, vitae ducimus! Laboriosam, iste! Officia quam, facere similique, libero provident vitae unde ratione commodi possimus ab minus nemo? Tempora adipisci aperiam odio aut dolores nemo a iusto quae, illum nulla, error eius! Nisi voluptatem eaque officia obcaecati reprehenderit, nesciunt qui consequatur sint voluptas dignissimos sequi magni voluptates dicta similique quas amet praesentium ipsam maiores illum fugiat, laboriosam dolore aliquam deleniti. Quod, et?",
+      "https://upload.wikimedia.org/wikipedia/commons/e/eb/Stephen_Hawking.StarChild.jpg",
+    name: "Stephen Hawking",
+    title: "English theoretical physicist",
+    user: "John",
+    like: 126,
+    comment: 10,
   },
   {
     id: 5,
     image:
-      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDUnXae0wDzyMEYAaLMS5kXbVsKvwzV9Bvfhvqlg6FEm8crY87",
-    title: "Site web : Agence de developpement web",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, cumque sequi eos suscipit repellendus in quia odit, et itaque amet magni assumenda earum ullam ipsam doloribus recusandae. Voluptatibus, vitae ducimus! Laboriosam, iste! Officia quam, facere similique, libero provident vitae unde ratione commodi possimus ab minus nemo? Tempora adipisci aperiam odio aut dolores nemo a iusto quae, illum nulla, error eius! Nisi voluptatem eaque officia obcaecati reprehenderit, nesciunt qui consequatur sint voluptas dignissimos sequi magni voluptates dicta similique quas amet praesentium ipsam maiores illum fugiat, laboriosam dolore aliquam deleniti. Quod, et?",
-  },
-];
-
-export const experience = [
-  {
-    id: 1,
-    title: "Co-Fondateur & Lead Developer - Startup Hub (2022 - Present)",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet architecto quos earum minus modi blanditiis aperiam officiis, explicabo sint nulla ipsam adipisci excepturi. Nulla, quis. Iusto molestias eligendi optio fugiat! Quam qui laborum culpa sequi saepe commodi dolorum voluptatum sunt dignissimos molestias recusandae corporis facilis, quos maxime voluptates accusamus eveniet, non illo atque! Minima laudantium exercitationem deserunt maiores optio nam?",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Steve_Jobs_Headshot_2010-CROP2.jpg/640px-Steve_Jobs_Headshot_2010-CROP2.jpg",
+    name: "Steve Jobs",
+    title: "Directeur général Apple",
+    user: "Diamil",
+    like: 309,
+    comment: 30,
   },
   {
-    id: 2,
-    title: "Ingenieur Logiciel - Google (2019 - 2022)",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet architecto quos earum minus modi blanditiis aperiam officiis, explicabo sint nulla ipsam adipisci excepturi. Nulla, quis. Iusto molestias eligendi optio fugiat! Quam qui laborum culpa sequi saepe commodi dolorum voluptatum sunt dignissimos molestias recusandae corporis facilis, quos maxime voluptates accusamus eveniet, non illo atque! Minima laudantium exercitationem deserunt maiores optio nam?",
+    id: 6,
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/7/7e/Marie_Curie_c1920.jpg",
+    name: "Marie Curie",
+    title: "Physicienne et chimiste",
+    user: "Aliou",
+    like: 102,
+    comment: 40,
   },
   {
-    id: 3,
-    title: "Ingenieur Logiciel - eBay (2018 - 2019)",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet architecto quos earum minus modi blanditiis aperiam officiis, explicabo sint nulla ipsam adipisci excepturi. Nulla, quis. Iusto molestias eligendi optio fugiat! Quam qui laborum culpa sequi saepe commodi dolorum voluptatum sunt dignissimos molestias recusandae corporis facilis, quos maxime voluptates accusamus eveniet, non illo atque! Minima laudantium exercitationem deserunt maiores optio nam?",
-  },
-];
-
-export const educations = [
-  {
-    title: "MSc Informatique",
-    name: "Collège universitaire de Londres (2017-2018)",
+    id: 7,
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6c/Secretary_of_Defense_Ash_Carter_meets_with_Jeff_Bezos%2C_May_5%2C_2016_%281%29_%28cropped%29.jpg",
+    name: "Jeff Bezos",
+    title: "Directeur général Amazon",
+    user: "Alpha",
+    like: 203,
+    comment: 44,
   },
   {
-    title: "B.Sc. Informatique",
-    name: "Université de Bristol (2013-2017)",
+    id: 8,
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Al-Khwarizmi_portrait.jpg/260px-Al-Khwarizmi_portrait.jpg",
+    name: "Alkhwarizmi",
+    title: " mathématicien",
+    user: "John",
+    like: 300,
+    comment: 59,
+  },
+  {
+    id: 9,
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6c/Secretary_of_Defense_Ash_Carter_meets_with_Jeff_Bezos%2C_May_5%2C_2016_%281%29_%28cropped%29.jpg",
+    name: "Albert Einstein",
+    title: "physicien théoricien",
+    user: "Alpha",
+    like: 300,
+    comment: 54,
+  },
+  {
+    id: 10,
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/Nelson_Mandela_1994.jpg",
+    name: "Nelson Mandela",
+    title: "President of South Africa",
+    user: "Diamil",
+    like: 1003,
+    comment: 544,
   },
 ];
